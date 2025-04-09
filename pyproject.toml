@@ -7,4 +7,5 @@ requires-python = ">=3.13"
 dependencies = [
     "mlb-statsapi>=1.9.0",
     "pydantic>=2.11.3",
+    "requests>=2.32.3",
 ]

@@ -1,12 +1,11 @@
 # main.py
 
-import models as m
-import utils as mlb
+import statsapi as mlb
 
 
 def main():
-    response: m.LookupTeamResponse = mlb.lookup_team(lookup_value="Tigers")
-    print(response.model_dump_json(indent=2))
+    response = mlb.schedule(team=116, start_date="03/01/2025", end_date="04/08/2025")
+    print(response)
 
 
 if __name__ == "__main__":

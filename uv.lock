@@ -70,12 +70,14 @@ source = { virtual = "." }
 dependencies = [
     { name = "mlb-statsapi" },
     { name = "pydantic" },
+    { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "mlb-statsapi", specifier = ">=1.9.0" },
     { name = "pydantic", specifier = ">=2.11.3" },
+    { name = "requests", specifier = ">=2.32.3" },
 ]
 
 [[package]]

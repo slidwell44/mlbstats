@@ -4,7 +4,7 @@ import typing as t
 
 import statsapi as mlb
 
-from models import Team, LookupTeamResponse
+from schemas.responses import Team, LookupTeamResponse
 
 
 def lookup_team(

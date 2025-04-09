@@ -1,4 +1,4 @@
-# models/lookup_team_response.py
+# schemas/lookup_team_response.py
 
 from pydantic import BaseModel, Field
 
